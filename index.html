@@ -69,6 +69,8 @@
     var uppercaseChoice="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     var numericChoice="0123456789";
     var specialChoice="!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+
+
     //password length
     function generatePassword(arrayToPrint){
     // var charset = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -78,19 +80,19 @@
     }
         
     //password choice
-        if (charType="lowercase"){
+        if (charType==="lowercase"){
             generatePassword(lowercaseChoice);
         }
 
-        else if (charType="uppercase"){
+        else if (charType==="uppercase"){
             generatePassword(uppercaseChoice);
         }
 
-        else if (charType="numeric"){
+        else if (charType==="numeric"){
             generatePassword(numericChoice);
         }
 
-        else if (charType="special characters"){
+        else if (charType==="special characters"){
             generatePassword(specialChoice);
         }
 
