@@ -65,7 +65,10 @@
 
 // WHEN all prompts are answered
 // THEN a password is generated that matches the selected criteria
-    
+    var lowercaseChoice= "abcdefghijklmnopqrstuvwxyz";
+    var uppercaseChoice="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var numericChoice="0123456789";
+    var specialChoice="!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
     //password length
     function generatePassword(arrayToPrint){
     // var charset = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -74,28 +77,22 @@
               }
     }
         
-    //password choice 
-    var lowercaseChoice= "abcdefghijklmnopqrstuvwxyz";
+    //password choice
         if (charType="lowercase"){
             generatePassword(lowercaseChoice);
-    
         }
 
-    var uppercaseChoice="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        if (charType="uppercase"){
+        else if (charType="uppercase"){
             generatePassword(uppercaseChoice);
         }
 
-    var numericChoice="0123456789";
-        if (charType="numeric"){
+        else if (charType="numeric"){
             generatePassword(numericChoice);
         }
 
-    var specialChoice="!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
-        if (charType="special characters"){
+        else if (charType="special characters"){
             generatePassword(specialChoice);
         }
-
 
 
 //         for ( var i = 0; i < length; i++ ) {
