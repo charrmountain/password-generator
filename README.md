@@ -1,26 +1,26 @@
-# password-generator
-Password Generator
+#  **Password Generator** #
 
-GIVEN I need a new, secure password
+## **Description**
 
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
+-  Create your very own password by selecting "Generate Password". Firstly, the user may pick any length between 8-128 characters. Secondly, the user picks their choice of uppercase, lowercase, numeric, and/or special characters. Lastly, they will receive (at random for security) a new password containing the parameters they selected. Unless, user picks length **not** in parameters * *OR* * they will be notified "Unacceptable Password".
 
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
+    - ### **HTML pages:**
+         1. [index.html](index.html) is the main password generator page
+         2. [script.js](portfolio.html) is the JavaScript for script to make generator run correctly.
 
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
+    - ### **Style Sheets** (used on all HTML pages)**:**
+         3. [style.css](style.css) (created by Coding-Bootcamp)
 
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
+## **Visuals**
+- When user clicks generate password they will be prompted with a series of questions.
+    - How long would you like the password?
+    - Do you want lowercase characters?
+    - Do you want uppercase characters?
+    - Do you want numeric characters?
+    - Do you want special characters?
 
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
+## **Usage**
+- Generates a safe and customizable password for user.
 
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-
+## **Support**
+- e-mail: charr.mt@gmail.com

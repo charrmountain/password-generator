@@ -57,7 +57,8 @@ function generatePassword() {
 
     //parameters
     if (lowercaseChoice === false && uppercaseChoice === false && numericChoice === false
-        && specialChoice === false || userLength < 8 || userLength > 128) { alert("Password Unacceptable"); }
+        && specialChoice === false || userLength < 8 || userLength > 128) 
+        {alert("Password MUST be between 8 to 128 characters and MUST have at least one character category chosen");}
 
     //function for password
     else {
