@@ -18,6 +18,7 @@
     - Do you want uppercase characters?
     - Do you want numeric characters?
     - Do you want special characters?
+- Users will notice where the "Your Secure Password" will display their new password with their chosen length and characters
 
 ## **Usage**
 - Generates a safe and customizable password for user.
