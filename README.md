@@ -1,5 +1,7 @@
 #  **Password Generator** #
 
+[Deployed Link](https://charrmountain.github.io/password-generator/)
+
 ## **Description**
 
 -  Create your very own password by selecting "Generate Password". Firstly, the user may pick any length between 8-128 characters. Secondly, the user picks their choice of uppercase, lowercase, numeric, and/or special characters. Lastly, they will receive (at random for security) a new password containing the parameters they selected. Unless, user picks length **not** in parameters * *OR* * they will be notified "Unacceptable Password".
@@ -12,6 +14,7 @@
          3. [style.css](style.css) (created by Coding-Bootcamp)
 
 ## **Visuals**
+![alt](images/password-generator.png)
 - When user clicks generate password they will be prompted with a series of questions.
     - How long would you like the password?
     - Do you want lowercase characters?
@@ -25,3 +28,4 @@
 
 ## **Support**
 - e-mail: charr.mt@gmail.com
+- [GitHub](https://github.com/charrmountain/password-generator)
